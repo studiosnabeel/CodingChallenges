@@ -1,0 +1,9 @@
+//Write a function that takes two numbers and return the maximum of the two
+let number = max(10, 2);
+
+function max(num1, num2) {
+  if (num1 > num2) return num1;
+  else return num2;
+}
+
+console.log(number);
