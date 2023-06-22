@@ -1,4 +1,4 @@
-const array = [1, 2, 3, 4, 'nabeel', null, 0, ''];
+const array = [1, 2, 'nabeel',4, 'hello', null, 0, ''];
 
 console.log(countTruthy(array));
 
