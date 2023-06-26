@@ -1,4 +1,4 @@
-const marks = [100, 100, 100];
+const marks = [80, 80, 50];
 
 //Average = 70
 
@@ -23,7 +23,7 @@ function calculateGrade(marks) {
 
   // let average = sum / marks.length;
 
-  let average = calculateAverage(marks)
+  let average = calculateAverage(marks);
 
   // Step 4: condition to get grades
 
@@ -36,7 +36,7 @@ function calculateGrade(marks) {
 
 //Single Responsibility Principle
 
-function calculateAverage (array) {
+function calculateAverage(array) {
   let sum = 0;
 
   // Step 2: Iterate through the array with for of loop
@@ -45,5 +45,5 @@ function calculateAverage (array) {
 
   // Step 3: Calculate the average of the sum
 
- return sum / marks.length;
+  return sum / array.length;
 }
